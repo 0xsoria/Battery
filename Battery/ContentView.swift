@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var service = BatteryLevelService(service: iOSBatteryLevelService())
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ProgressView(value: service.batteryLevel)
+                .foregroundColor(.blue)
+            Text("Status is \(service.batteryStatus.rawValue)")
         }
     }
 }
