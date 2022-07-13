@@ -15,6 +15,12 @@
 		15625E4B287E0CA70012806B /* BatteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E4A287E0CA70012806B /* BatteryUITests.swift */; };
 		15625E4D287E0CA70012806B /* BatteryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E4C287E0CA70012806B /* BatteryUITestsLaunchTests.swift */; };
 		15625E5A287E0D1C0012806B /* BatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E59287E0D1C0012806B /* BatteryLevelService.swift */; };
+		15625E5C287F29D10012806B /* BatteryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5B287F29D10012806B /* BatteryCoordinator.swift */; };
+		15625E5E287F2CD60012806B /* BatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5D287F2CD60012806B /* BatteryState.swift */; };
+		15625E60287F2D030012806B /* MacOSBatteryFInder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */; };
+		15625E62287F2D390012806B /* MacOSInternalBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E61287F2D390012806B /* MacOSInternalBattery.swift */; };
+		15625E64287F2D4F0012806B /* iOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */; };
+		15625E66287F2D720012806B /* BatteryMonitorServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		15625E4A287E0CA70012806B /* BatteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryUITests.swift; sourceTree = "<group>"; };
 		15625E4C287E0CA70012806B /* BatteryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15625E59287E0D1C0012806B /* BatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelService.swift; sourceTree = "<group>"; };
+		15625E5B287F29D10012806B /* BatteryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryCoordinator.swift; sourceTree = "<group>"; };
+		15625E5D287F2CD60012806B /* BatteryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryState.swift; sourceTree = "<group>"; };
+		15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSBatteryFInder.swift; sourceTree = "<group>"; };
+		15625E61287F2D390012806B /* MacOSInternalBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSInternalBattery.swift; sourceTree = "<group>"; };
+		15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBatteryLevelService.swift; sourceTree = "<group>"; };
+		15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitorServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				15625E2E287E0CA50012806B /* BatteryApp.swift */,
 				15625E59287E0D1C0012806B /* BatteryLevelService.swift */,
+				15625E5B287F29D10012806B /* BatteryCoordinator.swift */,
+				15625E5D287F2CD60012806B /* BatteryState.swift */,
+				15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */,
+				15625E61287F2D390012806B /* MacOSInternalBattery.swift */,
+				15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */,
+				15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */,
 				15625E30287E0CA50012806B /* ContentView.swift */,
 				15625E32287E0CA70012806B /* Assets.xcassets */,
 				15625E34287E0CA70012806B /* Battery.entitlements */,
@@ -264,7 +282,13 @@
 			files = (
 				15625E31287E0CA50012806B /* ContentView.swift in Sources */,
 				15625E2F287E0CA50012806B /* BatteryApp.swift in Sources */,
+				15625E5C287F29D10012806B /* BatteryCoordinator.swift in Sources */,
 				15625E5A287E0D1C0012806B /* BatteryLevelService.swift in Sources */,
+				15625E5E287F2CD60012806B /* BatteryState.swift in Sources */,
+				15625E62287F2D390012806B /* MacOSInternalBattery.swift in Sources */,
+				15625E64287F2D4F0012806B /* iOSBatteryLevelService.swift in Sources */,
+				15625E66287F2D720012806B /* BatteryMonitorServiceProtocol.swift in Sources */,
+				15625E60287F2D030012806B /* MacOSBatteryFInder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
