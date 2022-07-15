@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var service = BatteryLevelService(service: iOSBatteryLevelService())
+    @ObservedObject var service = BatteryLevelService()
     
     var body: some View {
         VStack {

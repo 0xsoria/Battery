@@ -16,10 +16,23 @@ final class BatteryLevelService: ObservableObject {
     @Published var batteryStatus: BatteryState = .unknown
     private let service: BatteryMonitorService
 
-    init(service: BatteryMonitorService) {
-        self.service = service
-        batteryLevel = service.batteryLevel
-        batteryStatus = service.batteryStatus
+    init(service: BatteryMonitorService? = nil) {
+        if service == nil {
+            #if os(iOS)
+            self.service = iOSBatteryLevelService()
+            #elseif os(watchOS)
+            self.service = watchOSBatteryLevelService()
+            #elseif os(macOS)
+            self.service = macOSBatteryLevelService()
+            #else
+            fatalError()
+            #endif
+        } else {
+           fatalError()
+        }
+
+        batteryLevel = self.service.batteryLevel
+        batteryStatus = self.service.batteryStatus
         #if os(iOS)
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(batteryLevelDidChange),

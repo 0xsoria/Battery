@@ -6,16 +6,17 @@
 //
 
 #if os(macOS)
+import Foundation
 import IOKit.ps
 
-public class InternalFinder {
+final class InternalFinder {
     private var serviceInternal: io_connect_t = 0 // io_object_t
     private var internalChecked: Bool = false
     private var hasInternalBattery: Bool = false
 
-    public init() { }
+    init() { }
 
-    public var batteryPresent: Bool {
+    var batteryPresent: Bool {
         get {
             if !self.internalChecked {
                 let snapshot = IOPSCopyPowerSourcesInfo().takeRetainedValue()
@@ -40,7 +41,7 @@ public class InternalFinder {
         self.serviceInternal = 0
     }
 
-    public func getInternalBattery() -> InternalBattery? {
+    func getInternalBattery() -> InternalBattery? {
         self.open()
 
         if self.serviceInternal == 0 {
