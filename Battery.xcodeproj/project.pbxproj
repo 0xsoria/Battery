@@ -14,6 +14,29 @@
 		15625E41287E0CA70012806B /* BatteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E40287E0CA70012806B /* BatteryTests.swift */; };
 		15625E4B287E0CA70012806B /* BatteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E4A287E0CA70012806B /* BatteryUITests.swift */; };
 		15625E4D287E0CA70012806B /* BatteryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E4C287E0CA70012806B /* BatteryUITestsLaunchTests.swift */; };
+		15625E5A287E0D1C0012806B /* BatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E59287E0D1C0012806B /* BatteryLevelService.swift */; };
+		15625E5C287F29D10012806B /* BatteryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5B287F29D10012806B /* BatteryCoordinator.swift */; };
+		15625E5E287F2CD60012806B /* BatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5D287F2CD60012806B /* BatteryState.swift */; };
+		15625E60287F2D030012806B /* MacOSBatteryFInder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */; };
+		15625E62287F2D390012806B /* MacOSInternalBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E61287F2D390012806B /* MacOSInternalBattery.swift */; };
+		15625E64287F2D4F0012806B /* iOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */; };
+		15625E66287F2D720012806B /* BatteryMonitorServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */; };
+		15625E6E287F2EE90012806B /* Battery_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E6D287F2EE90012806B /* Battery_watchOSApp.swift */; };
+		15625E70287F2EE90012806B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E6F287F2EE90012806B /* ContentView.swift */; };
+		15625E72287F2EEA0012806B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15625E71287F2EEA0012806B /* Assets.xcassets */; };
+		15625E75287F2EEA0012806B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15625E74287F2EEA0012806B /* Preview Assets.xcassets */; };
+		15625E7F287F2EEA0012806B /* Battery_watchOS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E7E287F2EEA0012806B /* Battery_watchOS_Watch_AppTests.swift */; };
+		15625E89287F2EEB0012806B /* Battery_watchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E88287F2EEB0012806B /* Battery_watchOS_Watch_AppUITests.swift */; };
+		15625E8B287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E8A287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift */; };
+		15625E95287F2EFE0012806B /* iOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */; };
+		15625E98287F2F550012806B /* watchOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */; };
+		15625E99287F2F790012806B /* BatteryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E5D287F2CD60012806B /* BatteryState.swift */; };
+		15625E9A287F2F840012806B /* BatteryMonitorServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */; };
+		15625E9B287F309D0012806B /* BatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E59287E0D1C0012806B /* BatteryLevelService.swift */; };
+		15625E9C287F30D10012806B /* watchOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */; };
+		15625E9E287FF9820012806B /* macOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */; };
+		ABF734432882C3EE0064E09E /* BatteryPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF734422882C3EE0064E09E /* BatteryPersistence.swift */; };
+		ABF734442882C3EE0064E09E /* BatteryPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF734422882C3EE0064E09E /* BatteryPersistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +54,20 @@
 			remoteGlobalIDString = 15625E2A287E0CA50012806B;
 			remoteInfo = Battery;
 		};
+		15625E7B287F2EEA0012806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15625E23287E0CA50012806B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15625E6A287F2EE90012806B;
+			remoteInfo = "Battery-watchOS Watch App";
+		};
+		15625E85287F2EEB0012806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15625E23287E0CA50012806B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15625E6A287F2EE90012806B;
+			remoteInfo = "Battery-watchOS Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +82,26 @@
 		15625E46287E0CA70012806B /* BatteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15625E4A287E0CA70012806B /* BatteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryUITests.swift; sourceTree = "<group>"; };
 		15625E4C287E0CA70012806B /* BatteryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15625E59287E0D1C0012806B /* BatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelService.swift; sourceTree = "<group>"; };
+		15625E5B287F29D10012806B /* BatteryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryCoordinator.swift; sourceTree = "<group>"; };
+		15625E5D287F2CD60012806B /* BatteryState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryState.swift; sourceTree = "<group>"; };
+		15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSBatteryFInder.swift; sourceTree = "<group>"; };
+		15625E61287F2D390012806B /* MacOSInternalBattery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSInternalBattery.swift; sourceTree = "<group>"; };
+		15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBatteryLevelService.swift; sourceTree = "<group>"; };
+		15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitorServiceProtocol.swift; sourceTree = "<group>"; };
+		15625E6B287F2EE90012806B /* Battery-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15625E6D287F2EE90012806B /* Battery_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_watchOSApp.swift; sourceTree = "<group>"; };
+		15625E6F287F2EE90012806B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15625E71287F2EEA0012806B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15625E74287F2EEA0012806B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15625E7A287F2EEA0012806B /* Battery-watchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery-watchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15625E7E287F2EEA0012806B /* Battery_watchOS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_watchOS_Watch_AppTests.swift; sourceTree = "<group>"; };
+		15625E84287F2EEB0012806B /* Battery-watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery-watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15625E88287F2EEB0012806B /* Battery_watchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_watchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		15625E8A287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_watchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSBatteryLevelService.swift; sourceTree = "<group>"; };
+		15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSBatteryLevelService.swift; sourceTree = "<group>"; };
+		ABF734422882C3EE0064E09E /* BatteryPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryPersistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +126,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15625E68287F2EE90012806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E77287F2EEA0012806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E81287F2EEB0012806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +156,9 @@
 				15625E2D287E0CA50012806B /* Battery */,
 				15625E3F287E0CA70012806B /* BatteryTests */,
 				15625E49287E0CA70012806B /* BatteryUITests */,
+				15625E6C287F2EE90012806B /* Battery-watchOS Watch App */,
+				15625E7D287F2EEA0012806B /* Battery-watchOS Watch AppTests */,
+				15625E87287F2EEB0012806B /* Battery-watchOS Watch AppUITests */,
 				15625E2C287E0CA50012806B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +169,9 @@
 				15625E2B287E0CA50012806B /* Battery.app */,
 				15625E3C287E0CA70012806B /* BatteryTests.xctest */,
 				15625E46287E0CA70012806B /* BatteryUITests.xctest */,
+				15625E6B287F2EE90012806B /* Battery-watchOS Watch App.app */,
+				15625E7A287F2EEA0012806B /* Battery-watchOS Watch AppTests.xctest */,
+				15625E84287F2EEB0012806B /* Battery-watchOS Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +180,16 @@
 			isa = PBXGroup;
 			children = (
 				15625E2E287E0CA50012806B /* BatteryApp.swift */,
+				15625E59287E0D1C0012806B /* BatteryLevelService.swift */,
+				15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */,
+				15625E5B287F29D10012806B /* BatteryCoordinator.swift */,
+				ABF734422882C3EE0064E09E /* BatteryPersistence.swift */,
+				15625E5D287F2CD60012806B /* BatteryState.swift */,
+				15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */,
+				15625E61287F2D390012806B /* MacOSInternalBattery.swift */,
+				15625E63287F2D4F0012806B /* iOSBatteryLevelService.swift */,
+				15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */,
+				15625E65287F2D720012806B /* BatteryMonitorServiceProtocol.swift */,
 				15625E30287E0CA50012806B /* ContentView.swift */,
 				15625E32287E0CA70012806B /* Assets.xcassets */,
 				15625E34287E0CA70012806B /* Battery.entitlements */,
@@ -127,6 +221,42 @@
 				15625E4C287E0CA70012806B /* BatteryUITestsLaunchTests.swift */,
 			);
 			path = BatteryUITests;
+			sourceTree = "<group>";
+		};
+		15625E6C287F2EE90012806B /* Battery-watchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				15625E6D287F2EE90012806B /* Battery_watchOSApp.swift */,
+				15625E6F287F2EE90012806B /* ContentView.swift */,
+				15625E71287F2EEA0012806B /* Assets.xcassets */,
+				15625E73287F2EEA0012806B /* Preview Content */,
+			);
+			path = "Battery-watchOS Watch App";
+			sourceTree = "<group>";
+		};
+		15625E73287F2EEA0012806B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15625E74287F2EEA0012806B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15625E7D287F2EEA0012806B /* Battery-watchOS Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				15625E7E287F2EEA0012806B /* Battery_watchOS_Watch_AppTests.swift */,
+			);
+			path = "Battery-watchOS Watch AppTests";
+			sourceTree = "<group>";
+		};
+		15625E87287F2EEB0012806B /* Battery-watchOS Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15625E88287F2EEB0012806B /* Battery_watchOS_Watch_AppUITests.swift */,
+				15625E8A287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Battery-watchOS Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +315,59 @@
 			productReference = 15625E46287E0CA70012806B /* BatteryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		15625E6A287F2EE90012806B /* Battery-watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15625E8C287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch App" */;
+			buildPhases = (
+				15625E67287F2EE90012806B /* Sources */,
+				15625E68287F2EE90012806B /* Frameworks */,
+				15625E69287F2EE90012806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battery-watchOS Watch App";
+			productName = "Battery-watchOS Watch App";
+			productReference = 15625E6B287F2EE90012806B /* Battery-watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15625E79287F2EEA0012806B /* Battery-watchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15625E8F287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch AppTests" */;
+			buildPhases = (
+				15625E76287F2EEA0012806B /* Sources */,
+				15625E77287F2EEA0012806B /* Frameworks */,
+				15625E78287F2EEA0012806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15625E7C287F2EEA0012806B /* PBXTargetDependency */,
+			);
+			name = "Battery-watchOS Watch AppTests";
+			productName = "Battery-watchOS Watch AppTests";
+			productReference = 15625E7A287F2EEA0012806B /* Battery-watchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15625E83287F2EEB0012806B /* Battery-watchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15625E92287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch AppUITests" */;
+			buildPhases = (
+				15625E80287F2EEB0012806B /* Sources */,
+				15625E81287F2EEB0012806B /* Frameworks */,
+				15625E82287F2EEB0012806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15625E86287F2EEB0012806B /* PBXTargetDependency */,
+			);
+			name = "Battery-watchOS Watch AppUITests";
+			productName = "Battery-watchOS Watch AppUITests";
+			productReference = 15625E84287F2EEB0012806B /* Battery-watchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +389,17 @@
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 15625E2A287E0CA50012806B;
 					};
+					15625E6A287F2EE90012806B = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					15625E79287F2EEA0012806B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 15625E6A287F2EE90012806B;
+					};
+					15625E83287F2EEB0012806B = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 15625E6A287F2EE90012806B;
+					};
 				};
 			};
 			buildConfigurationList = 15625E26287E0CA50012806B /* Build configuration list for PBXProject "Battery" */;
@@ -224,6 +418,9 @@
 				15625E2A287E0CA50012806B /* Battery */,
 				15625E3B287E0CA70012806B /* BatteryTests */,
 				15625E45287E0CA70012806B /* BatteryUITests */,
+				15625E6A287F2EE90012806B /* Battery-watchOS Watch App */,
+				15625E79287F2EEA0012806B /* Battery-watchOS Watch AppTests */,
+				15625E83287F2EEB0012806B /* Battery-watchOS Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +449,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15625E69287F2EE90012806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15625E75287F2EEA0012806B /* Preview Assets.xcassets in Resources */,
+				15625E72287F2EEA0012806B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E78287F2EEA0012806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E82287F2EEB0012806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,6 +481,16 @@
 			files = (
 				15625E31287E0CA50012806B /* ContentView.swift in Sources */,
 				15625E2F287E0CA50012806B /* BatteryApp.swift in Sources */,
+				15625E5C287F29D10012806B /* BatteryCoordinator.swift in Sources */,
+				15625E9E287FF9820012806B /* macOSBatteryLevelService.swift in Sources */,
+				15625E5A287E0D1C0012806B /* BatteryLevelService.swift in Sources */,
+				15625E9C287F30D10012806B /* watchOSBatteryLevelService.swift in Sources */,
+				15625E5E287F2CD60012806B /* BatteryState.swift in Sources */,
+				15625E62287F2D390012806B /* MacOSInternalBattery.swift in Sources */,
+				15625E64287F2D4F0012806B /* iOSBatteryLevelService.swift in Sources */,
+				15625E66287F2D720012806B /* BatteryMonitorServiceProtocol.swift in Sources */,
+				15625E60287F2D030012806B /* MacOSBatteryFInder.swift in Sources */,
+				ABF734432882C3EE0064E09E /* BatteryPersistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +511,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		15625E67287F2EE90012806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15625E98287F2F550012806B /* watchOSBatteryLevelService.swift in Sources */,
+				15625E9B287F309D0012806B /* BatteryLevelService.swift in Sources */,
+				15625E95287F2EFE0012806B /* iOSBatteryLevelService.swift in Sources */,
+				ABF734442882C3EE0064E09E /* BatteryPersistence.swift in Sources */,
+				15625E70287F2EE90012806B /* ContentView.swift in Sources */,
+				15625E6E287F2EE90012806B /* Battery_watchOSApp.swift in Sources */,
+				15625E9A287F2F840012806B /* BatteryMonitorServiceProtocol.swift in Sources */,
+				15625E99287F2F790012806B /* BatteryState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E76287F2EEA0012806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15625E7F287F2EEA0012806B /* Battery_watchOS_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15625E80287F2EEB0012806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15625E8B287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
+				15625E89287F2EEB0012806B /* Battery_watchOS_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +555,16 @@
 			isa = PBXTargetDependency;
 			target = 15625E2A287E0CA50012806B /* Battery */;
 			targetProxy = 15625E47287E0CA70012806B /* PBXContainerItemProxy */;
+		};
+		15625E7C287F2EEA0012806B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15625E6A287F2EE90012806B /* Battery-watchOS Watch App */;
+			targetProxy = 15625E7B287F2EEA0012806B /* PBXContainerItemProxy */;
+		};
+		15625E86287F2EEB0012806B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15625E6A287F2EE90012806B /* Battery-watchOS Watch App */;
+			targetProxy = 15625E85287F2EEB0012806B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -560,6 +832,151 @@
 			};
 			name = Release;
 		};
+		15625E8D287F2EEB0012806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Battery-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Battery-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		15625E8E287F2EEB0012806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Battery-watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Battery-watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		15625E90287F2EEB0012806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Soria.Battery-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery-watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Battery-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		15625E91287F2EEB0012806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Soria.Battery-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battery-watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Battery-watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		15625E93287F2EEB0012806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Soria.Battery-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Battery-watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		15625E94287F2EEB0012806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H929RNU2C4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Soria.Battery-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Battery-watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,6 +1012,33 @@
 			buildConfigurations = (
 				15625E57287E0CA70012806B /* Debug */,
 				15625E58287E0CA70012806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15625E8C287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15625E8D287F2EEB0012806B /* Debug */,
+				15625E8E287F2EEB0012806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15625E8F287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15625E90287F2EEB0012806B /* Debug */,
+				15625E91287F2EEB0012806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15625E92287F2EEB0012806B /* Build configuration list for PBXNativeTarget "Battery-watchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15625E93287F2EEB0012806B /* Debug */,
+				15625E94287F2EEB0012806B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
