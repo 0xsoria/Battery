@@ -5,12 +5,6 @@
 //  Created by Gabriel Soria Souza on 13/07/2022.
 //
 
-import Foundation
-
-protocol BatteryPersistence {
-}
-
-
 final class BatteryCoordinator {
     
     private let persistenceStore: BatteryPersistence
@@ -21,6 +15,4 @@ final class BatteryCoordinator {
         self.persistenceStore = persistenceStore
         self.monitorService = monitorService
     }
-    
-    
 }

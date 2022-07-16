@@ -35,6 +35,8 @@
 		15625E9B287F309D0012806B /* BatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E59287E0D1C0012806B /* BatteryLevelService.swift */; };
 		15625E9C287F30D10012806B /* watchOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */; };
 		15625E9E287FF9820012806B /* macOSBatteryLevelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */; };
+		ABF734432882C3EE0064E09E /* BatteryPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF734422882C3EE0064E09E /* BatteryPersistence.swift */; };
+		ABF734442882C3EE0064E09E /* BatteryPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF734422882C3EE0064E09E /* BatteryPersistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 		15625E8A287F2EEB0012806B /* Battery_watchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery_watchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15625E96287F2F3F0012806B /* watchOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSBatteryLevelService.swift; sourceTree = "<group>"; };
 		15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSBatteryLevelService.swift; sourceTree = "<group>"; };
+		ABF734422882C3EE0064E09E /* BatteryPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryPersistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,7 @@
 				15625E59287E0D1C0012806B /* BatteryLevelService.swift */,
 				15625E9D287FF9820012806B /* macOSBatteryLevelService.swift */,
 				15625E5B287F29D10012806B /* BatteryCoordinator.swift */,
+				ABF734422882C3EE0064E09E /* BatteryPersistence.swift */,
 				15625E5D287F2CD60012806B /* BatteryState.swift */,
 				15625E5F287F2D030012806B /* MacOSBatteryFInder.swift */,
 				15625E61287F2D390012806B /* MacOSInternalBattery.swift */,
@@ -486,6 +490,7 @@
 				15625E64287F2D4F0012806B /* iOSBatteryLevelService.swift in Sources */,
 				15625E66287F2D720012806B /* BatteryMonitorServiceProtocol.swift in Sources */,
 				15625E60287F2D030012806B /* MacOSBatteryFInder.swift in Sources */,
+				ABF734432882C3EE0064E09E /* BatteryPersistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +518,7 @@
 				15625E98287F2F550012806B /* watchOSBatteryLevelService.swift in Sources */,
 				15625E9B287F309D0012806B /* BatteryLevelService.swift in Sources */,
 				15625E95287F2EFE0012806B /* iOSBatteryLevelService.swift in Sources */,
+				ABF734442882C3EE0064E09E /* BatteryPersistence.swift in Sources */,
 				15625E70287F2EE90012806B /* ContentView.swift in Sources */,
 				15625E6E287F2EE90012806B /* Battery_watchOSApp.swift in Sources */,
 				15625E9A287F2F840012806B /* BatteryMonitorServiceProtocol.swift in Sources */,
